@@ -3,5 +3,32 @@ This repository contains configuration scripts for setting up your shell environ
 
 ## Repository Contents
 
-- `.bash_profile`: Configuration script that runs for login shells.
-- `.bashrc`: Configuration script that runs for interactive non-login shells.
+- [.bash_profile](.bash_profile): Configuration script that runs for login shells.
+- [.bashrc](.bashrc): Configuration script that runs for interactive non-login shells.
+
+## Usage
+
+### Setting Up
+
+1. **Clone the repository to your local machine**
+
+   ```sh
+   git clone git@github.com:elliotip04/bash-setup-scripts.git
+
+2. **Go to your home directory**
+   ```sh
+   cd ~
+
+3. **Create the .bashrc file**
+
+   ```sh
+   nano .bashrc
+   
+4. **Copy and paste the provided [.bashrc](.bashrc) content into the file.**
+
+5. **Create the .bash_profile file**
+   
+   ```sh
+   nano .bash_profile
+
+6. **Copy and paste the provided [.bash_profile](.bash_profile) content into the file**
